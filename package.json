@@ -1,0 +1,61 @@
+{
+	"name": "gulpjs-cheatsheet",
+	"version": "1.0.0",
+	"description": "",
+	"main": "gulpfile.js",
+	"dependencies": {
+		"@babel/polyfill": "^7.8.7",
+		"babel-core": "^6.26.3",
+		"babel-preset-env": "^1.7.0",
+		"gulp-uglifycss": "^1.1.0"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.8.4",
+		"@babel/core": "^7.8.7",
+		"@babel/preset-env": "^7.8.7",
+		"babelify": "^10.0.0",
+		"browser-sync": "^2.26.7",
+		"browserify": "^16.5.0",
+		"check-outdated": "^1.4.2",
+		"gulp": "^4.0.2",
+		"gulp-autoprefixer": "^7.0.1",
+		"gulp-if": "^3.0.0",
+		"gulp-notify": "^3.2.0",
+		"gulp-options": "^1.1.1",
+		"gulp-plumber": "^1.2.1",
+		"gulp-rename": "^2.0.0",
+		"gulp-sass": "^4.0.2",
+		"gulp-sourcemaps": "^2.6.5",
+		"gulp-strip-debug": "^3.0.0",
+		"gulp-terser": "^1.2.0",
+		"gulp-uglify": "^3.0.2",
+		"gulp-uglify-es": "^2.0.0",
+		"node-sass": "^4.13.1",
+		"vinyl-buffer": "^1.0.1",
+		"vinyl-source-stream": "^2.0.0"
+	},
+	"babel": {
+		"presets": [
+			"@babel/preset-env"
+		]
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Hvuj/GulpJs-cheatsheet.git"
+	},
+	"author": "Hvuj",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Hvuj/GulpJs-cheatsheet/issues"
+	},
+	"homepage": "https://github.com/Hvuj/GulpJs-cheatsheet#readme",
+	"browserslist": [
+		"defaults",
+		"not IE 11",
+		"not IE_Mob 11",
+		"maintained node versions"
+	]
+}

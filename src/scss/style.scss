@@ -1,0 +1,35 @@
+@import "base/variables";
+@import "base/grid";
+@import "base/buttons";
+
+body {
+	background-color: $bg;
+	color: $red;
+}
+
+.container {
+	width: 100%;
+	max-width: 600px;
+	background: rgb(29, 165, 175);
+	padding: 40px;
+	color: burlywood;
+	text-align: center;
+	margin: 35px auto;
+	display: block;
+	box-shadow: 3px 3px 15px #ccc;
+
+	h1 {
+		font-size: 7em;
+		font-weight: bold;
+	}
+
+	p {
+		font-size: 2em;
+		margin-top: 25px;
+		line-height: normal;
+	}
+}
+
+a {
+	transition: all 320ms ease;
+}
